@@ -48,7 +48,7 @@ Para facilitar el trabajo, creamos nuestro `makefile`:
 
 Ahora, como ya hemos dicho, `loader.s` debe inicializar el registro SP. En este caso, dejaremos un espacio de `2MiB` y, a continuación, la pila.
 
-![] (readme-res/001-0070_RAM-pila.png)
+![](readme-res/001-0070_RAM-pila.png)
 
 Por tanto, creamos nuestro loader.s:
 
